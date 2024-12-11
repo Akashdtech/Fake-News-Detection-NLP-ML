@@ -1,5 +1,5 @@
 # Fake-News-Detection-NLP-ML
-This script implements a text classification pipeline to detect fake news using a Kaggle dataset. It uses a LinearSVC model for classification, employing a TF-IDF vectorizer to process the text data. Here’s a breakdown of the workflow:
+This project implements a text classification pipeline to detect fake news using a Kaggle dataset. It uses a LinearSVC model for classification, employing a TF-IDF vectorizer to process the text data. Here’s a breakdown of the workflow:
 1. Data Loading:
 
     The script loads the dataset from a CSV file containing text data and corresponding labels (FAKE and REAL news).
@@ -29,10 +29,4 @@ Expected Output:
     The content of the test.txt file is printed.
     The model’s prediction for the new news article is printed, indicating whether it is classified as FAKE or REAL.
 
-Example Output:
-
-0.98  # Example accuracy
-"Some new news article content..."  # Printed content from test.txt
-[0]  # FAKE (or 1 for REAL)
-
-This script provides a simple yet effective pipeline for fake news detection using text data and the LinearSVC classifier.
+This code provides a simple yet effective pipeline for fake news detection using text data and the LinearSVC classifier.
